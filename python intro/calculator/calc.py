@@ -6,7 +6,7 @@ def main():
     sum = float(var1) + float(var2)
     product = float(var1) * float(var2)
 
-    if var3 != "sum" or var3 != "difference" or var3 != "product" or var3 != "quotient":\
+    if var3 != "sum" and var3 != "difference" and var3 != "product" and var3 != "quotient":
         print("Please calculate sum, difference, product or quotient.")
 
     if var3 == "sum":
@@ -31,7 +31,12 @@ def main():
 
         print(quotient)
 
-    var4 = input("Would you like to calculate more? ")
+    option()
+
+
+
+def option():
+    var4 = input("Would you like to try more? ")
 
     if var4 == "yes":
         main()
