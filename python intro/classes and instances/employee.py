@@ -23,5 +23,6 @@ emp_2 = Employee("Lennon", "John", 200)
 def pullEmpInfo (emp):
     print(emp.__dict__)
 
-pullEmpInfo(emp_1)
-pullEmpInfo(emp_2)
+def predictRaise (emp):
+    predictedSal = (emp.salary * 1.04)
+    print(predictedSal)
