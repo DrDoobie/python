@@ -6,11 +6,11 @@ def mainFunc ():
     var2 = input("Input Second Number: ")
     calcType = input("What do you want to calculate for? ")
 
-    if calcType != "sum" and calcType != "product" and calcType != "difference" and calcType != "quotient":
+    if calcType not in ["sum", "product", "difference", "quotient"]:
         print("Try using keywords; sum, product, difference or quotient.")
-        success = 0
+        success = False
     else:
-        success = 1
+        success = True
 
     if calcType == "sum":
         result = float(var1) + float(var2)
@@ -24,7 +24,7 @@ def mainFunc ():
     if calcType == "quotient":
         result = float(var1) / float(var2)
 
-    if success == 1:
+    if success:
         print(result)
         retry()
     else:
