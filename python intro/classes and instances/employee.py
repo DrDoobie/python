@@ -1,6 +1,6 @@
-class Employee:
-        annualSalInc = 1.04
+annualSalInc = 1.04
 
+class Employee:
         def __init__ (self, last, first, salary):
             self.last = last
             self.first = first
@@ -12,17 +12,22 @@ class Employee:
             return "{}, {}".format(self.last, self.first)
 
         def upgradeSalary (self):
-            self.salary *= 1.04
+            self.salary *= annualSalInc
             self.promotionsReceived += 1
 
-# Employee light here:
+# Employee list here:
 emp_1 = Employee("Hendrix", "Jimi", 100)
 emp_2 = Employee("Lennon", "John", 200)
+emp_3 = Employee("McCartney", "Paul", 175)
 
 # Use this function to pull all of employee's information
-def pullEmpInfo (emp):
+def pullInfo (emp):
     print(emp.__dict__)
 
-def predictRaise (emp):
-    predictedSal = (emp.salary * 1.04)
+# t = amount of years in the future
+def predictSalary (emp, t):
+    predictedSal = (emp.salary * annualSalInc * t)
     print(predictedSal)
+
+
+
