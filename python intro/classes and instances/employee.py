@@ -27,7 +27,13 @@ def pullInfo (emp):
 # t = amount of years in the future
 def predictSalary (emp, t):
     predictedSal = (emp.salary * annualSalInc * t)
-    print(predictedSal)
+    print('$', float(predictedSal), "- Predicted salary in", float(t), "years. Current Salary: ", "$", float(emp.salary))
 
+pullInfo(emp_1)
+predictSalary(emp_1, 3.5)
 
+pullInfo(emp_2)
+predictSalary(emp_2, 2)
 
+pullInfo(emp_3)
+predictSalary(emp_3, 5)
