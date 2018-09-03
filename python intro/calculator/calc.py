@@ -6,7 +6,7 @@ def mainFunc ():
     var2 = input("Input Second Number: ")
     calcType = input("What do you want to calculate for? ")
 
-    if calcType != "sum" and calcType != "product" and calcType != "difference" and calcType != "quotient":
+    if calcType not in ["sum", "product", "difference", "quotient"]:
         print("Try using keywords; sum, product, difference or quotient.")
         success = 0
     else:
