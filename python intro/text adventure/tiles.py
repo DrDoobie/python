@@ -31,5 +31,12 @@ class LootRoom (Tile):
         self.addLoot(player)
 
 class EnemyRoom (Tile):
-    
+    def __init__ (self, x, y, enemy):
+        self.enemy = enemy
+        super().__init__(x, y)
+
+    def modifyPlayer (self, thePlayer):
+        if self.enemy.isAlive():
+            thePlayer.hp = thePlayer.hp - self.enemy.damage
+            print("Enemy deals {} damage to you. You have {}hp remaining.".format(self.enemy.damage, thePlayer.hp))
 
