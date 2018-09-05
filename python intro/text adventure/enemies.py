@@ -1,5 +1,5 @@
 class Enemy ():
-    def __init__ (self, name, legend, hp, damage)
+    def __init__ (self, name, legend, hp, damage):
         self.name = name
         self.legend = legend
         self.hp = hp
