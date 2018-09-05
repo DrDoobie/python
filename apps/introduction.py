@@ -14,11 +14,12 @@ botFrame = Frame(root)
 botFrame.pack(side = BOTTOM)
 
 # Simple button (location, display, colour(optional))
-button1 = Button(topFrame, text = "Click Me!", fg = "red")
-button1.pack(side = LEFT)
+sampleButton = Button(topFrame, text = "Click Me!", fg = "red", bg = "black")
+sampleButton.pack()
 
-button2 = Button(topFrame, text = "Click Me!", fg = "blue")
-button2.pack(side = RIGHT)
+# Simple text box
+sampleText = Label(root, text = "Did you do it?")
+sampleText.pack()
 
 # Keeps the window going/open. When this loop is broken the window is closed. - REQUIRED
 root.mainloop()
