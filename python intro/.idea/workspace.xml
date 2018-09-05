@@ -24,31 +24,32 @@
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="367" />
-          <entry key="py" value="7892" />
+          <entry key="py" value="8679" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="8259" />
+          <entry key="Python" value="9046" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="9" />
+          <entry key="py" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="9" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -56,33 +57,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/text adventure/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/text adventure/items.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/text adventure/tiles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="561">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
               <folding>
-                <marker date="1535993625472" expanded="true" signature="14:19" ph="..." />
-                <marker date="1535993625472" expanded="true" signature="286:291" ph="..." />
-                <marker date="1535993625472" expanded="true" signature="582:587" ph="..." />
-                <marker date="1535993625472" expanded="true" signature="823:828" ph="..." />
+                <marker date="1536152709748" expanded="true" signature="361:370" ph="..." />
+                <marker date="1536152709748" expanded="true" signature="679:686" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classes and instances/employee.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text adventure/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="306">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
-                <marker date="1535989569738" expanded="true" signature="789:790" ph="..." />
+                <marker date="1536151760316" expanded="true" signature="14:19" ph="..." />
+                <marker date="1536151760316" expanded="true" signature="286:291" ph="..." />
+                <marker date="1536151760316" expanded="true" signature="582:587" ph="..." />
+                <marker date="1536151760316" expanded="true" signature="823:828" ph="..." />
               </folding>
             </state>
           </provider>
@@ -91,18 +88,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/text adventure/enemies.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="136">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding>
                 <marker date="1535994330568" expanded="true" signature="249:478" ph="..." />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/text adventure/tiles.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -127,8 +119,8 @@
         <option value="$PROJECT_DIR$/classes and instances/employee.py" />
         <option value="$PROJECT_DIR$/text adventure/base.py" />
         <option value="$PROJECT_DIR$/text adventure/__init__.py" />
-        <option value="$PROJECT_DIR$/text adventure/items.py" />
         <option value="$PROJECT_DIR$/text adventure/enemies.py" />
+        <option value="$PROJECT_DIR$/text adventure/items.py" />
         <option value="$PROJECT_DIR$/text adventure/tiles.py" />
       </list>
     </option>
@@ -393,8 +385,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23825504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24161074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -425,13 +418,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HelloWorld.py" />
-    <entry file="file://$PROJECT_DIR$/calculator/calc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dice rolling sim/dice.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -440,16 +426,30 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/text adventure/base.py" />
+    <entry file="file://$PROJECT_DIR$/classes and instances/employee.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <marker date="1535989569738" expanded="true" signature="789:790" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/text adventure/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/text adventure/tiles.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/calculator/calc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/text adventure/enemies.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        <state relative-caret-position="136">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
             <marker date="1535994330568" expanded="true" signature="249:478" ph="..." />
           </folding>
@@ -458,23 +458,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/text adventure/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="306">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
-            <marker date="1535993625472" expanded="true" signature="14:19" ph="..." />
-            <marker date="1535993625472" expanded="true" signature="286:291" ph="..." />
-            <marker date="1535993625472" expanded="true" signature="582:587" ph="..." />
-            <marker date="1535993625472" expanded="true" signature="823:828" ph="..." />
+            <marker date="1536151760316" expanded="true" signature="14:19" ph="..." />
+            <marker date="1536151760316" expanded="true" signature="286:291" ph="..." />
+            <marker date="1536151760316" expanded="true" signature="582:587" ph="..." />
+            <marker date="1536151760316" expanded="true" signature="823:828" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes and instances/employee.py">
+    <entry file="file://$PROJECT_DIR$/text adventure/tiles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="561">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
           <folding>
-            <marker date="1535989569738" expanded="true" signature="789:790" ph="..." />
+            <marker date="1536152709748" expanded="true" signature="361:370" ph="..." />
+            <marker date="1536152709748" expanded="true" signature="679:686" ph="..." />
           </folding>
         </state>
       </provider>
