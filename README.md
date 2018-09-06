@@ -1,2 +1,2 @@
 # python
-All python stuff goes in here.
+All *general* python stuff goes in here.
